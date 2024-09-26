@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #915eb8, #9566ec, #4141ed); /* Gradient from light blue to navy blue */
+    padding: 3rem;
+}
+
+h1,p,h2,h3,h4,h5,h6{
+    color: whitesmoke;
+}
+
+
+@media screen and (min-width:1000px) 
+{
+    .logo{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+}
+
+
+@media screen and (max-width:999px) 
+{
+    .logo{
+        width: 30%;
+        height: 30%;
+    }
+    
+}
+
+
