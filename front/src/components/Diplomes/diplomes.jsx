@@ -22,7 +22,7 @@ const Diplomes = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:3001/send-email', { etudiant });
+      const response = await axios.post('https://soiree-inte-back.vercel.app/send-email', { etudiant });
       if (response.status === 200) {
         toast.success('Email envoyé avec succès');
         setShowQRCode(true);
