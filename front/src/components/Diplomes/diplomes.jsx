@@ -21,6 +21,7 @@ const Diplomes = () => {
     e.preventDefault();
     setLoading(true);
 
+    
     try {
       const response = await axios.post('https://soiree-inte-back.vercel.app/send-email', { etudiant });
       if (response.status === 200) {
