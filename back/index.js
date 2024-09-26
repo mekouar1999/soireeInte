@@ -12,7 +12,7 @@ const port = process.env.PORT || 3001;
 app.use(bodyParser.json());
 app.use(cors());
 
-app.post('/send-email', async (req, res) => {
+app.post('https://soiree-inte-back.vercel.app/send-email', async (req, res) => {
   const { etudiant } = req.body;
 
   try {
