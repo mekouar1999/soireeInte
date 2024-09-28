@@ -5,11 +5,12 @@ import Footer from './components/footer.jsx';
 function App() {
   return (
     <div className="App">
-     <Diplomes/>
+     {/* <Diplomes/> */}
+     <br/>
+     Evenement Terminé
      <br/>
      <br/>
-     <br/>
-     <Footer/>
+     {/* <Footer/> */}
     </div>
   );
 }
