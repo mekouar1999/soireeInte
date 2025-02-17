@@ -57,7 +57,7 @@ const Hackathon = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:3001/send-email-hackathon',
+        'https://soiree-inte-back.vercel.app/send-email-hackathon',
         { participant }
       );
       if (response.status === 200) {
