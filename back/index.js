@@ -49,7 +49,7 @@ app.post('/send-email-hackathon', async (req, res) => {
     const today = new Date().toLocaleDateString('fr-FR');
     doc.text(`Date d'inscription : ${today}`, 15, 65);
 doc.text(`Nom : ${participant.nom}   Prénom : ${participant.prenom}`, 15, 75);
-doc.text(`Ville : ${participant.number}`, 15, 85);
+doc.text(`Numéro de telephone : ${participant.number}`, 15, 85);
 
 
     doc.text(`Ville : ${participant.ville}`, 15, 95);
