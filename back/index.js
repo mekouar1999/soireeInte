@@ -48,8 +48,10 @@ app.post('/send-email-hackathon', async (req, res) => {
     doc.setFontSize(10);  // Réduit la taille pour les informations
     const today = new Date().toLocaleDateString('fr-FR');
     doc.text(`Date d'inscription : ${today}`, 15, 65);
-    doc.text(`Nom : ${participant.nom}`, 15, 75);
-    doc.text(`Prénom : ${participant.prenom}`, 15, 85);
+doc.text(`Nom : ${participant.nom}   Prénom : ${participant.prenom}`, 15, 75);
+doc.text(`Ville : ${participant.number}`, 15, 85);
+
+
     doc.text(`Ville : ${participant.ville}`, 15, 95);
     doc.text(`Lycée : ${participant.lycee}`, 15, 105);
     doc.text(`ID Unique : ${uniqueId}`, 15, 115);
