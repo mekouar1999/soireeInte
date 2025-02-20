@@ -67,11 +67,11 @@ doc.text(`Numéro de telephone : ${participant.number}`, 15, 85);
     doc.text("Planning du Hackathon", 15, 130);
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(10);  // Réduit la taille du texte du planning
-    doc.text("09h00 - Accueil et enregistrement", 15, 140);
-    doc.text("10h00 - Présentation du challenge", 15, 150);
-    doc.text("12h00 - Début du coding", 15, 160);
-    doc.text("13h00 - Pause déjeuner", 15, 170);
-    doc.text("18h00 - Fin du coding et soumission", 15, 180);
+      doc.text("14h00 - Accueil et enregistrement", 15, 140);
+    doc.text("14h30 - Cérémonie d'ouverture", 15, 150);
+    doc.text("15h00 - Formation pré-hackaton", 15, 160);
+    doc.text("16h30 - Début officiel du hackathon", 15, 170);
+    doc.text("18h30 - Délibération et remise des prix", 15, 180);
     doc.text("", 15, 190);
     
     // Ajout des consignes spécifiques
