@@ -78,8 +78,8 @@ app.post('/send-email-hackathon', async (req, res) => {
     doc.text("Consignes Importantes", 15, 215);
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(10);  // Réduit la taille du texte des consignes
-    doc.text("Apportez votre propre ordinateur portable.", 15, 225);
-    doc.text("Assurez-vous d'avoir un environnement de développement installé.", 15, 235);
+    doc.text("Ordinateur portable mis à votre disposition au seins de l'établissement", 15, 225);
+    doc.text("Une tenue correcte est exigée.", 15, 235);
     doc.text("Respectez les délais et les consignes des mentors.", 15, 245);
     doc.text("Amusez-vous et soyez créatifs !", 15, 255);
     
