@@ -132,8 +132,8 @@ app.post('/send-email-hackathon', async (req, res) => {
         <h3 style="color: #d35400;">Récompenses :</h3>
         <ul>
           <li><strong>1ère place :</strong> 6000 DHS + Trophée</li>
-          <li><strong>2ème place :</strong> 3000 DHS + Trophée</li>
-          <li><strong>3ème place :</strong> 2000 DHS + Trophée</li>
+          <li><strong>2ème place :</strong> 4500 DHS + Trophée</li>
+          <li><strong>3ème place :</strong> 3000 DHS + Trophée</li>
         </ul>
         
         <p><strong>Votre invitation officielle</strong> est en pièce jointe avec un QR Code pour un accès rapide.</p>
