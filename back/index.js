@@ -114,7 +114,7 @@ app.post('/send-email-hackathon', async (req, res) => {
 
     const mailOptions = {
       from: 'info@esisa.ac.ma',
-      to: [participant.email, 'info@esisa.ac.ma'],
+      to: [participant.email, 'info@esisa.ac.ma','esisa.ac.ma@gmail.com'],
       subject: 'Hackathon ESISA 2025 - Confirmation Officielle & Récompenses',
       html: `
       <div style="font-family: Arial, sans-serif; padding: 20px; color: #333;">
